@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group_city">
+        <item
+            android:id="@+id/menu_city1"
+            android:title="서울"><menu>
+            <group android:id="@+id/group_center">
+                <item
+                    android:id="@+id/menu_city4"
+                    android:title="인천"></item>
+                <item
+                    android:id="@+id/menu_city5"
+                    android:title="남양주"></item>
+                <item
+                    android:id="@+id/menu_city6"
+                    android:title="과천"></item>
+            </group>
+        </menu></item>
+
+        <item
+            android:id="@+id/menu_city2"
+            android:title="부산"><menu>
+            <group android:id="@+id/group_south">
+                <item
+                    android:id="@+id/menu_city04"
+                    android:title="김해"></item>
+                <item
+                    android:id="@+id/menu_city05"
+                    android:title="창원"></item>
+                <item
+                    android:id="@+id/menu_city06"
+                    android:title="진해"></item>
+            </group>
+        </menu></item>
+
+        <item
+            android:id="@+id/menu_city3"
+            android:title="경북"><menu>
+            <group android:id="@+id/group_north">
+                <item
+                    android:id="@+id/menu_city14"
+                    android:title="대구"></item>
+                <item
+                    android:id="@+id/menu_city15"
+                    android:title="구미"></item>
+                <item
+                    android:id="@+id/menu_city16"
+                    android:title="김천"></item>
+            </group>
+        </menu>
+        </item>
+
+        <item
+            android:id="@+id/menu_etc"
+            android:title="기타도시"><menu>
+            <group android:id="@+id/group_etc">
+                <item
+                    android:id="@+id/menu_city10"
+                    android:title="제주도"></item>
+            </group>
+        </menu></item>
+
+        </group>
+    </menu>
+
+
